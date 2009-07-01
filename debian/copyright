@@ -1,41 +1,40 @@
-Format-Specification:
-    http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
-Upstream-Maintainer: Daniel P. Berrange <dan@berrange.com>
-Upstream-Source: http://search.cpan.org/dist/Sys-Virt/
-Upstream-Name: Sys-Virt
-Disclaimer: This copyright info was automatically extracted 
-    from the perl module. It may not be accurate, so you better 
-    check the module sources in order to ensure the module for its 
-    inclusion in Debian or for general legal information. Please, 
-    if licensing information is incorrectly generated, file a bug 
-    on dh-make-perl.
+Format-Specification: http://dep.debian.net/deps/dep5/
+Maintainer: Daniel P. Berrange <dan@berrange.com>
+Source: http://search.cpan.org/dist/Sys-Virt/
+Name: Sys-Virt
 
 Files: *
-Copyright: Daniel P. Berrange <dan@berrange.com>
-License: GPL-2+ | Artistic
+Copyright: 2006-2009, Daniel P. Berrange <dan@berrange.com>
+License: GPL-2+ or Artistic
+
+Files: lib/Sys/Virt/NodeDevice.pm, lib/Sys/Virt/StorageVol.pm,
+       lib/Sys/Virt/StoragePool.pm, lib/Sys/Virt.pm
+Copyright: 2006-2009, Red Hat
+           2006-2009, Daniel P. Berrange
+License: GPL-2+ or Artistic
+
+Files: lib/Sys/Virt/Domain.pm, lib/Sys/Virt/Error.pm, lib/Sys/Virt/Network.pm,
+       lib/Sys/Virt/Event.pm, ./Virt.xs
+Copyright: 2006, Red Hat
+           2006-2007, Daniel P. Berrange
+License: GPL-2+ or Artistic
 
 Files: debian/*
 Copyright: 2009, Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
-License: GPL-2+ | GPL-1+ | Artistic
+License: GPL-2+ or Artistic
 
 License: GPL-2+
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; version 2 dated June, 1991, or (at your
-    option) any later version.
-    On Debian GNU/Linux systems, the complete text of version 2 of the GNU
-    General Public License can be found in `/usr/share/common-licenses/GPL-2'
-
-License: GPL-1+
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 1, or (at your option)
-    any later version.
-    On Debian GNU/Linux systems, the complete text of the GNU General
-    Public License can be found in `/usr/share/common-licenses/GPL'
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991, or (at your
+ option) any later version.
+X-Comment:
+ On Debian GNU/Linux systems, the complete text of version 2 of the GNU
+ General Public License can be found in `/usr/share/common-licenses/GPL-2'
 
 License: Artistic
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the Artistic License, which comes with Perl.
-    On Debian GNU/Linux systems, the complete text of the Artistic License
-    can be found in `/usr/share/common-licenses/Artistic'
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+X-Comment:
+ On Debian GNU/Linux systems, the complete text of the Artistic License
+ can be found in `/usr/share/common-licenses/Artistic'
