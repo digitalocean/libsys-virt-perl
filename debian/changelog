@@ -1,0 +1,5 @@
+libsys-virt-perl (0.2.0-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #384576)
+
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Wed, 01 Jul 2009 19:47:13 +0200
