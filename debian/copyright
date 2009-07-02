@@ -3,10 +3,6 @@ Maintainer: Daniel P. Berrange <dan@berrange.com>
 Source: http://search.cpan.org/dist/Sys-Virt/
 Name: Sys-Virt
 
-Files: *
-Copyright: 2006-2009, Daniel P. Berrange <dan@berrange.com>
-License: GPL-2+ or Artistic
-
 Files: lib/Sys/Virt/NodeDevice.pm, lib/Sys/Virt/StorageVol.pm,
        lib/Sys/Virt/StoragePool.pm, lib/Sys/Virt.pm
 Copyright: 2006-2009, Red Hat
