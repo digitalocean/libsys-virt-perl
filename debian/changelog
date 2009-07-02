@@ -1,4 +1,13 @@
-libsys-virt-perl (0.2.0-1) unstable; urgency=low
+libsys-virt-perl (0.2.0-1) UNRELEASED; urgency=low
+
+  TODO:
+  - d/rules: I don't think there's a reason for "-a"
+  - I'd remove debian/libsys-virt-perl.docs, the README doesn't look helpful
+    at first glance
+  - d/copyright: very detailed and diligent! I'm just nor sure where the first
+    statment (Files: *, 2006-2009) comes from. (I don't see a file that has
+    those years but not Red Hat). [probably squashing it down to one stanza with
+    "2006-2009 Daniel P. Berrange, 2006-2009 Red Hat" would also work]
 
   * Initial Release. (Closes: #384576)
 
