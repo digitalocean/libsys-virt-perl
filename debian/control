@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7),
   libtest-pod-coverage-perl (>= 1.00),
   libxml-xpath-perl,
   libtest-pod-perl (>= 1.00),
-  perl (>= 5.6.0-12),
+  perl,
   pkg-config
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
