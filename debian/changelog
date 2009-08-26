@@ -1,4 +1,4 @@
-libsys-virt-perl (0.2.1-1) UNRELEASED; urgency=low
+libsys-virt-perl (0.2.1-1) unstable; urgency=low
 
   * New upstream release
   * debian/control: 
@@ -8,7 +8,7 @@ libsys-virt-perl (0.2.1-1) UNRELEASED; urgency=low
     - Bump Standards-Version to 3.8.3 (no changes needed).
     - Bump Build-Depends on libvirt-dev (>= 0.6.4)
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Wed, 26 Aug 2009 07:41:16 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Wed, 26 Aug 2009 10:54:02 +0200
 
 libsys-virt-perl (0.2.0-1) unstable; urgency=low
 
