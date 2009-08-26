@@ -2,7 +2,7 @@ Source: libsys-virt-perl
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7),
-  libvirt-dev (>= 0.6.1),
+  libvirt-dev (>= 0.6.4),
   libtest-pod-coverage-perl (>= 1.00),
   libxml-xpath-perl,
   libtest-pod-perl (>= 1.00),
@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 7),
   pkg-config
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
-Standards-Version: 3.8.2
+Standards-Version: 3.8.3
 Homepage: http://search.cpan.org/dist/Sys-Virt/
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libsys-virt-perl/
 Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libsys-virt-perl/
