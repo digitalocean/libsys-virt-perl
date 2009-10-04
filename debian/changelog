@@ -1,13 +1,12 @@
 libsys-virt-perl (0.2.2-1) UNRELEASED; urgency=low
   
-  WAITS-FOR: libvirt-dev 0.7.0
   * New upstream release
     - Add all new APIs upto libvirt 0.7.0 APIs
     - Add missing APIs and bugfixes.
   * debian/control: Bump versioned Build-Depends on libvirt-dev (>= 0.7.0)
     since this is the current minimum required version of libvirt. 
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Tue, 15 Sep 2009 07:21:59 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sun, 04 Oct 2009 07:31:52 +0200
 
 libsys-virt-perl (0.2.1-1) unstable; urgency=low
 
