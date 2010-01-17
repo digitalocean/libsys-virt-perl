@@ -1,6 +1,8 @@
 Description: Fix some spelling errors in manpages reported
  by lintian checks.
 Origin: vendor
+Bug: http://rt.cpan.org/Public/Bug/Display.html?id=53769
+Forwarded: yes
 Author: Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
 --- a/lib/Sys/Virt.pm
 +++ b/lib/Sys/Virt.pm
