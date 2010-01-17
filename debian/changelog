@@ -3,8 +3,13 @@ libsys-virt-perl (0.2.3-1) UNRELEASED; urgency=low
   * New upstream release
   * debian/control: Bump versioned Build-Depends on libvirt-dev (>= 0.7.5)
     since this is the current minimum required version of libvirt.
+  * Refresh debian/copyright:
+    - Update copyright years for debian/* packaging.
+    - Add Stanza for lib/Sys/Virt/Secret.pm.
+    - Update to revision 135 of DEP5 format secification for machine readable
+      copyright file.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sun, 17 Jan 2010 07:20:57 +0100
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Sun, 17 Jan 2010 07:28:37 +0100
 
 libsys-virt-perl (0.2.2-1) unstable; urgency=low
   
