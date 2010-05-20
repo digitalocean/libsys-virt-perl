@@ -1,8 +1,9 @@
 libsys-virt-perl (0.2.4-1) UNRELEASED; urgency=low
 
   * New upstream release
+  * Drop fix_spelling-error-in-manpage.patch patch which is applied upstream. 
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Wed, 19 May 2010 22:51:55 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Thu, 20 May 2010 09:39:55 +0200
 
 libsys-virt-perl (0.2.3-1) unstable; urgency=low
 
