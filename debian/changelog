@@ -4,8 +4,9 @@ libsys-virt-perl (0.2.4-1) UNRELEASED; urgency=low
   * Drop fix_spelling-error-in-manpage.patch patch which is applied upstream. 
   * Bump Build-Depends on libvirt-dev to (>= 0.8.1).
   * Referesh debian/copyright for upstream files.
+  * Bump Standards-Version to 3.8.4.
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Thu, 20 May 2010 10:09:37 +0200
+ -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Thu, 20 May 2010 10:23:51 +0200
 
 libsys-virt-perl (0.2.3-1) unstable; urgency=low
 
