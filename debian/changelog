@@ -1,3 +1,9 @@
+libsys-virt-perl (0.2.4-2) UNRELEASED; urgency=low
+
+  * Update carnil's email address
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 10 Oct 2010 15:03:39 +0200
+
 libsys-virt-perl (0.2.4-1) unstable; urgency=low
 
   * New upstream release
