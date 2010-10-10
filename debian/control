@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7),
   perl,
   pkg-config
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Uploaders: Salvatore Bonaccorso <carnil@debian.org>
+Uploaders: Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>
 Standards-Version: 3.8.4
 Homepage: http://search.cpan.org/dist/Sys-Virt/
 Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libsys-virt-perl/
