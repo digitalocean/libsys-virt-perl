@@ -5,8 +5,9 @@ libsys-virt-perl (0.2.4-1) unstable; urgency=low
   * Bump Build-Depends on libvirt-dev to (>= 0.8.1).
   * Referesh debian/copyright for upstream files.
   * Bump Standards-Version to 3.8.4.
+  * Update carnil's email address
 
- -- Salvatore Bonaccorso <salvatore.bonaccorso@gmail.com>  Thu, 20 May 2010 10:52:04 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 10 Oct 2010 14:29:46 +0200
 
 libsys-virt-perl (0.2.3-1) unstable; urgency=low
 
