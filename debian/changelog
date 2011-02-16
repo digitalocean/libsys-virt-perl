@@ -1,5 +1,7 @@
 libsys-virt-perl (0.2.5-1) UNRELEASED; urgency=low
 
+  TODO: Investigate FTBFS
+
   * New upstream release
   * Email change: Salvatore Bonaccorso -> carnil@debian.org
   * debian/control:
