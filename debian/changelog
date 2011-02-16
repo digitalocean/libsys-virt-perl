@@ -1,8 +1,11 @@
-libsys-virt-perl (0.2.4-2) UNRELEASED; urgency=low
+libsys-virt-perl (0.2.5-1) UNRELEASED; urgency=low
 
-  * Update my email address.
+  * New upstream release
+  * Email change: Salvatore Bonaccorso -> carnil@debian.org
+  * debian/control: Bump versioned Build-Depends on libvirt-dev to
+    (>= 0.8.7).
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 10 Oct 2010 15:03:39 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 16 Feb 2011 13:39:49 +0100
 
 libsys-virt-perl (0.2.4-1) unstable; urgency=low
 
