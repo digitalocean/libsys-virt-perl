@@ -21,7 +21,7 @@ Copyright: 2006-2009, Red Hat
 License: GPL-2+ or Artistic
 
 Files: debian/*
-Copyright: 2009-2010, Salvatore Bonaccorso <carnil@debian.org>
+Copyright: 2009-2011, Salvatore Bonaccorso <carnil@debian.org>
 License: GPL-2+ or Artistic
 
 License: GPL-2+
@@ -30,12 +30,13 @@ License: GPL-2+
  the Free Software Foundation; version 2 dated June, 1991, or (at your
  option) any later version.
  .
- On Debian GNU/Linux systems, the complete text of version 2 of the GNU
- General Public License can be found in `/usr/share/common-licenses/GPL-2'
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
 License: Artistic
  This program is free software; you can redistribute it and/or modify
  it under the terms of the Artistic License, which comes with Perl.
  .
- On Debian GNU/Linux systems, the complete text of the Artistic License
- can be found in `/usr/share/common-licenses/Artistic'
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
