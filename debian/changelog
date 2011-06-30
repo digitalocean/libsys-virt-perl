@@ -1,3 +1,9 @@
+libsys-virt-perl (0.2.7-1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 30 Jun 2011 08:49:33 +0200
+
 libsys-virt-perl (0.2.6-1) unstable; urgency=low
 
   * New upstream release
