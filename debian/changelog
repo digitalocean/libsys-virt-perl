@@ -2,8 +2,10 @@ libsys-virt-perl (0.2.7-1) UNRELEASED; urgency=low
 
   * New upstream release
   * debian/control: Bump versioned Build-Depends on libvirt-dev to (>= 0.8.8). 
+  * debian/copyright: Update upstream copyright for added
+    lib/Sys/Virt/Stream.pm.
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 30 Jun 2011 12:03:26 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 30 Jun 2011 12:07:36 +0200
 
 libsys-virt-perl (0.2.6-1) unstable; urgency=low
 

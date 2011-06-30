@@ -15,7 +15,7 @@ Copyright: 2006, Red Hat
            2006-2007, Daniel P. Berrange
 License: GPL-2+ or Artistic
 
-Files: lib/Sys/Virt/Secret.pm
+Files: lib/Sys/Virt/Secret.pm, lib/Sys/Virt/Stream.pm
 Copyright: 2006-2009, Red Hat
            2006-2007, Daniel P. Berrange
 License: GPL-2+ or Artistic
