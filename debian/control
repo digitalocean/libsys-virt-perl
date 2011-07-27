@@ -12,8 +12,8 @@ Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Salvatore Bonaccorso <carnil@debian.org>
 Standards-Version: 3.9.2
 Homepage: http://search.cpan.org/dist/Sys-Virt/
-Vcs-Svn: svn://svn.debian.org/pkg-perl/trunk/libsys-virt-perl/
-Vcs-Browser: http://svn.debian.org/viewsvn/pkg-perl/trunk/libsys-virt-perl/
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libsys-virt-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libsys-virt-perl.git
 
 Package: libsys-virt-perl
 Architecture: any
