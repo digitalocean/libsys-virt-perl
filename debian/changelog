@@ -1,11 +1,11 @@
-libsys-virt-perl (0.9.4-1) UNRELEASED; urgency=low
+libsys-virt-perl (0.9.4-1) unstable; urgency=low
 
   * Imported Upstream version 0.9.4
   * debian/control: Bump versioned Build-Depends on libvirt-dev to (>= 0.9.4).
   * debian/copyright: Replace DEP5 Format-Specification URL from
     svn.debian.org to anonscm.debian.org URL.
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 04 Aug 2011 15:28:09 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 29 Aug 2011 07:29:07 +0200
 
 libsys-virt-perl (0.9.3-1) unstable; urgency=low
 
