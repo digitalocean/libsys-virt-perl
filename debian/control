@@ -2,7 +2,7 @@ Source: libsys-virt-perl
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7),
-  libvirt-dev (>= 0.9.4),
+  libvirt-dev (>= 0.9.5),
   libtest-pod-coverage-perl,
   libxml-xpath-perl,
   libtest-pod-perl,
