@@ -7,7 +7,7 @@ Last-Update: 2011-09-28
 
 --- a/lib/Sys/Virt/Domain.pm
 +++ b/lib/Sys/Virt/Domain.pm
-@@ -1398,7 +1398,7 @@
+@@ -1473,7 +1473,7 @@
  
  =item Sys::Virt::Domain::EVENT_RESUMED_FROM_SNAPSHOT
  
