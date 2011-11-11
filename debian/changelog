@@ -1,10 +1,10 @@
-libsys-virt-perl (0.9.7-1) UNRELEASED; urgency=low
+libsys-virt-perl (0.9.7-1) experimental; urgency=low
 
   * Imported Upstream version 0.9.7 (Closes: #647705)
   * Bump versioned Build-Depends on libvirt-dev to (>= 0.9.7).
   * Refresh fix-spelling-error-in-manpage.patch patch
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 09 Nov 2011 08:04:26 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 11 Nov 2011 07:29:31 +0100
 
 libsys-virt-perl (0.9.5-1) unstable; urgency=low
 
