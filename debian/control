@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 7),
   libtest-pod-coverage-perl,
   libxml-xpath-perl,
   libtest-pod-perl,
+  libcpan-changes-perl,
   perl,
   pkg-config
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
