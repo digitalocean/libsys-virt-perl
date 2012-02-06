@@ -1,14 +1,14 @@
-libsys-virt-perl (0.9.9-1) UNRELEASED; urgency=low
-
-  WAITS-FOR: libvirt-dev 0.9.9
+libsys-virt-perl (0.9.9-1) unstable; urgency=low
 
   * Imported Upstream version 0.9.9
   * Bump versioned Build-Depends on libvirt-dev to (>= 0.9.9)
   * Add libcpan-changes-perl to Build-Depends
   * Drop fix-spelling-error-in-manpage.patch.
     Patch was applied upstream.
+  * Bump Debhelper compat level to 9.
+    Adjust Build-Depends on debhelper to (>= 9).
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 09 Jan 2012 22:25:20 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 06 Feb 2012 22:13:39 +0100
 
 libsys-virt-perl (0.9.8-1) unstable; urgency=low
 
