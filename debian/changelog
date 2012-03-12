@@ -1,9 +1,13 @@
-libsys-virt-perl (0.9.10-1) UNRELEASED; urgency=low
+libsys-virt-perl (0.9.10-1) experimental; urgency=low
 
   * Imported Upstream version 0.9.10
   * Bump versioned Build-Depends on libvirt-dev to (>= 0.9.10)
+  * Update debian/copyright file format.
+    Update format to copyright-format 1.0 as released together with Debian
+    policy 3.9.3.
+  * Bump Standards-Version to 3.9.3
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 13 Feb 2012 23:05:10 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 12 Mar 2012 07:25:28 +0100
 
 libsys-virt-perl (0.9.9-1) unstable; urgency=low
 
