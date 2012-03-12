@@ -1,21 +1,26 @@
-Format-Specification: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?view=markup&pathrev=135
-Maintainer: Daniel P. Berrange <dan@berrange.com>
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Sys-Virt
+Upstream-Contact: Daniel P. Berrange <dan@berrange.com>
 Source: http://search.cpan.org/dist/Sys-Virt/
-Name: Sys-Virt
 
 Files: *
 Copyright: 2006-2009, Red Hat
            2006-2009, Daniel P. Berrange
 License: GPL-2+ or Artistic
 
-Files: lib/Sys/Virt/Domain.pm, lib/Sys/Virt/DomainSnapshot.pm,
-       lib/Sys/Virt/Error.pm, lib/Sys/Virt/Network.pm,
-       lib/Sys/Virt/NWFilter.pm, lib/Sys/Virt/Event.pm, ./Virt.xs
+Files: lib/Sys/Virt/Domain.pm
+ lib/Sys/Virt/DomainSnapshot.pm
+ lib/Sys/Virt/Error.pm
+ lib/Sys/Virt/Network.pm
+ lib/Sys/Virt/NWFilter.pm
+ lib/Sys/Virt/Event.pm
+ ./Virt.xs
 Copyright: 2006, Red Hat
            2006-2007, Daniel P. Berrange
 License: GPL-2+ or Artistic
 
-Files: lib/Sys/Virt/Secret.pm, lib/Sys/Virt/Stream.pm
+Files: lib/Sys/Virt/Secret.pm
+ lib/Sys/Virt/Stream.pm
 Copyright: 2006-2009, Red Hat
            2006-2007, Daniel P. Berrange
 License: GPL-2+ or Artistic
@@ -23,6 +28,13 @@ License: GPL-2+ or Artistic
 Files: debian/*
 Copyright: 2009-2012, Salvatore Bonaccorso <carnil@debian.org>
 License: GPL-2+ or Artistic
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
@@ -32,11 +44,4 @@ License: GPL-2+
  .
  On Debian systems, the complete text of version 2 of the GNU General
  Public License can be found in `/usr/share/common-licenses/GPL-2'.
-
-License: Artistic
- This program is free software; you can redistribute it and/or modify
- it under the terms of the Artistic License, which comes with Perl.
- .
- On Debian systems, the complete text of the Artistic License can be
- found in `/usr/share/common-licenses/Artistic'.
 
