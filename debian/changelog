@@ -1,3 +1,9 @@
+libsys-virt-perl (1.0.0-2) UNRELEASED; urgency=low
+
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 06 Jan 2013 22:07:13 +0100
+
 libsys-virt-perl (1.0.0-1) experimental; urgency=low
 
   * Imported Upstream version 1.0.0
