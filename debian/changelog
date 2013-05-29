@@ -1,11 +1,11 @@
-libsys-virt-perl (1.0.5-1) UNRELEASED; urgency=low
+libsys-virt-perl (1.0.5-1) unstable; urgency=low
 
-  WAITS-FOR: libvirt 1.0.5
-
+  * Upload to unstable
   * Imported Upstream version 1.0.5
   * Bump versioned Build-Depends on libvirt-dev to (>= 1.0.5)
+  * Update copyright years for debian/* packaging files
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 15 May 2013 06:46:57 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 29 May 2013 18:17:30 +0200
 
 libsys-virt-perl (1.0.3-1) experimental; urgency=low
 
