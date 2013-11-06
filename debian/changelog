@@ -1,10 +1,16 @@
-libsys-virt-perl (1.1.4-1) UNRELEASED; urgency=low
+libsys-virt-perl (1.1.4-1) unstable; urgency=low
 
   * Imported Upstream version 1.1.3 and 1.1.4
   * Bump versioned Build-Depends on libvirt-dev to (>= 1.1.4)
   * Bump Standards-Version to 3.9.5
+  * Add Build-Depends on libvirt-bin
+  * Add Depends on libvirt-bin.
+    Add Depends on libvirt-bin as /usr/share/libvirt/cpu_map.xml is used.
+  * Bump versioned Build-Depends on debhelper to (>= 9.20120312~)
+    At least this version of debehlper is needed to get all hardening flags.
+  * Wrap and sort fields in debian/control file
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 05 Nov 2013 14:03:43 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 06 Nov 2013 17:19:29 +0100
 
 libsys-virt-perl (1.1.2-1) unstable; urgency=low
 
