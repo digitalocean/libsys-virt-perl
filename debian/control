@@ -3,6 +3,7 @@ Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 9),
   libvirt-dev (>= 1.1.4),
+  libvirt-bin,
   libtest-pod-coverage-perl,
   libxml-xpath-perl,
   libtest-pod-perl,
