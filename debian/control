@@ -19,7 +19,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libsys-virt-p
 
 Package: libsys-virt-perl
 Architecture: any
-Depends: ${perl:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Depends: ${perl:Depends}, ${shlibs:Depends}, ${misc:Depends}, libvirt-bin
 Description: Perl module providing an extension for the libvirt library
  The Sys::Virt module provides a Perl XS binding to the libvirt virtual
  machine management APIs. This allows machines running within arbitrary
