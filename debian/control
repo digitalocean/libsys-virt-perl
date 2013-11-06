@@ -1,15 +1,16 @@
 Source: libsys-virt-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 9.20120312~),
-  libvirt-dev (>= 1.1.4),
-  libvirt-bin,
-  libtest-pod-coverage-perl,
-  libxml-xpath-perl,
-  libtest-pod-perl,
-  libcpan-changes-perl,
-  perl,
-  pkg-config
+Build-Depends:
+ debhelper (>= 9.20120312~),
+ libcpan-changes-perl,
+ libtest-pod-coverage-perl,
+ libtest-pod-perl,
+ libvirt-bin,
+ libvirt-dev (>= 1.1.4),
+ libxml-xpath-perl,
+ perl,
+ pkg-config
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Salvatore Bonaccorso <carnil@debian.org>
 Standards-Version: 3.9.5
@@ -19,7 +20,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libsys-virt-p
 
 Package: libsys-virt-perl
 Architecture: any
-Depends: ${perl:Depends}, ${shlibs:Depends}, ${misc:Depends}, libvirt-bin
+Depends: libvirt-bin, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Description: Perl module providing an extension for the libvirt library
  The Sys::Virt module provides a Perl XS binding to the libvirt virtual
  machine management APIs. This allows machines running within arbitrary
