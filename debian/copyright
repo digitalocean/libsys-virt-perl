@@ -8,13 +8,17 @@ Copyright: 2006-2009, Red Hat
            2006-2009, Daniel P. Berrange
 License: GPL-2+ or Artistic
 
+Files: ./Virt.xs
+Copyright: 2006-2014, Red Hat
+           2006-2014, Daniel P. Berrange
+License: GPL-2+ or Artistic
+
 Files: lib/Sys/Virt/Domain.pm
  lib/Sys/Virt/DomainSnapshot.pm
  lib/Sys/Virt/Error.pm
  lib/Sys/Virt/Network.pm
  lib/Sys/Virt/NWFilter.pm
  lib/Sys/Virt/Event.pm
- ./Virt.xs
 Copyright: 2006, Red Hat
            2006-2007, Daniel P. Berrange
 License: GPL-2+ or Artistic
