@@ -1,4 +1,4 @@
-libsys-virt-perl (1.2.1-2) UNRELEASED; urgency=medium
+libsys-virt-perl (1.2.2-1) UNRELEASED; urgency=medium
 
   [ gregor herrmann ]
   * Strip trailing slash from metacpan URLs.
