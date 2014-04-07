@@ -1,11 +1,11 @@
-libsys-virt-perl (1.2.2-1) UNRELEASED; urgency=medium
+libsys-virt-perl (1.2.3-1) UNRELEASED; urgency=medium
 
   [ gregor herrmann ]
   * Strip trailing slash from metacpan URLs.
 
   [ Salvatore Bonaccorso ]
-  * Imported Upstream version 1.2.2
-  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.2)
+  * Imported Upstream version 1.2.2 and 1.2.3
+  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.3)
 
  -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 03 Mar 2014 21:35:55 +0100
 
