@@ -1,9 +1,9 @@
-libsys-virt-perl (1.2.5-1) UNRELEASED; urgency=medium
+libsys-virt-perl (1.2.6-1) UNRELEASED; urgency=medium
 
-  * Imported Upstream version 1.2.5
-  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.5~)
+  * Imported Upstream version 1.2.5 and 1.2.6
+  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.6~)
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 02 Jun 2014 13:47:24 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 02 Jul 2014 20:05:39 +0200
 
 libsys-virt-perl (1.2.4-1) unstable; urgency=medium
 
