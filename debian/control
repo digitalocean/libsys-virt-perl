@@ -16,7 +16,7 @@ Uploaders: Salvatore Bonaccorso <carnil@debian.org>
 Standards-Version: 3.9.5
 Homepage: https://metacpan.org/release/Sys-Virt
 Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libsys-virt-perl.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libsys-virt-perl.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libsys-virt-perl.git
 
 Package: libsys-virt-perl
 Architecture: any
