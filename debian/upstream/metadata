@@ -1,0 +1,6 @@
+---
+Archive: CPAN
+Contact: Daniel P. Berrange <dan@berrange.com>
+Homepage: http://libvirt.org/
+Name: Sys-Virt
+Repository: git://libvirt.org/libvirt-perl.git
