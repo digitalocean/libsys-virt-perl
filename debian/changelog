@@ -3,6 +3,7 @@ libsys-virt-perl (1.2.8-1) UNRELEASED; urgency=medium
   * Update Vcs-Browser URL to cgit web frontend
   * Add debian/upstream/metadata file
   * Imported upstream version 1.2.8
+  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.8~)
 
  -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 05 Sep 2014 20:43:31 +0200
 
