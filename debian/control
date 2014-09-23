@@ -17,6 +17,7 @@ Standards-Version: 3.9.6
 Homepage: https://metacpan.org/release/Sys-Virt
 Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libsys-virt-perl.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libsys-virt-perl.git
+Testsuite: autopkgtest-pkg-perl
 
 Package: libsys-virt-perl
 Architecture: any
