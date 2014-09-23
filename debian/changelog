@@ -1,11 +1,15 @@
-libsys-virt-perl (1.2.8-1) UNRELEASED; urgency=medium
+libsys-virt-perl (1.2.8-1) unstable; urgency=medium
 
   * Update Vcs-Browser URL to cgit web frontend
   * Add debian/upstream/metadata file
   * Imported upstream version 1.2.8
   * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.8~)
+  * Update copyright years for debian/* packaging
+  * Declare compliance with Debian Policy 3.9.6
+  * Add Testsuite: autopkgtest-pkg-perl field in debian/control
+  * Add debian/tests/pkg-perl/test-files copying additionally Changes file
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 05 Sep 2014 20:43:31 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 23 Sep 2014 20:10:49 +0200
 
 libsys-virt-perl (1.2.6-1) unstable; urgency=medium
 
