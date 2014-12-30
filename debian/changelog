@@ -1,3 +1,17 @@
+libsys-virt-perl (1.2.9-2) unstable; urgency=medium
+
+  * Change Build-Depends from libvirt-bin to libvirt-daemon
+    libvirt-bin is now a transitional package and only libvirt-daemon is
+    used during build.
+  * Drop Depends on libvirt-bin.
+    The runtime dependency to neither libvirt-daemon-system or
+    libvirt-clients is required to have the Perl module working. It only
+    requires the dependency on the library, since libvirt supports also
+    accessing remote daemons via the network.
+    Thanks to Daniel Gröber <dxld@darkboxed.org> (Closes: #774185)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 30 Dec 2014 08:11:19 +0100
+
 libsys-virt-perl (1.2.9-1) unstable; urgency=medium
 
   * Imported upstream version 1.2.9
