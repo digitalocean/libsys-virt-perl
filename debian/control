@@ -21,7 +21,7 @@ Testsuite: autopkgtest-pkg-perl
 
 Package: libsys-virt-perl
 Architecture: any
-Depends: libvirt-bin, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Description: Perl module providing an extension for the libvirt library
  The Sys::Virt module provides a Perl XS binding to the libvirt virtual
  machine management APIs. This allows machines running within arbitrary
