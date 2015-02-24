@@ -1,3 +1,9 @@
+libsys-virt-perl (1.2.12-1) UNRELEASED; urgency=medium
+
+  * Import upstream version 1.2.12
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 24 Feb 2015 15:49:33 +0100
+
 libsys-virt-perl (1.2.9-2) unstable; urgency=medium
 
   * Change Build-Depends from libvirt-bin to libvirt-daemon
