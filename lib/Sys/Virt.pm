@@ -78,7 +78,7 @@ use Sys::Virt::NWFilter;
 use Sys::Virt::DomainSnapshot;
 use Sys::Virt::Stream;
 
-our $VERSION = '1.2.9';
+our $VERSION = '1.2.12';
 require XSLoader;
 XSLoader::load('Sys::Virt', $VERSION);
 
@@ -262,7 +262,7 @@ sub create_domain_with_files {
 				   fds => $fds, flags => $flags);
 }
 
-=item my $dom = $vmm->define_domain($xml);
+=item my $dom = $vmm->define_domain($xml, $flags=0);
 
 Defines, but does not start, a new domain based on the XML description
 passed into the C<$xml> parameter. The returned object is an instance
@@ -276,8 +276,9 @@ object.
 sub define_domain {
     my $self = shift;
     my $xml = shift;
+    my $flags = shift || 0;
 
-    return Sys::Virt::Domain->_new(connection => $self, xml => $xml, nocreate => 1);
+    return Sys::Virt::Domain->_new(connection => $self, xml => $xml, nocreate => 1, flags => $flags);
 }
 
 =item my $dom = $vmm->create_network($xml);
@@ -1857,6 +1858,10 @@ How many pages changing too fast to be placed in a tree.
 =item Sys::Virt::NODE_MEMORY_SHARED_SLEEP_MILLISECS
 
 How many milliseconds the shared memory service should sleep before next scan.
+
+=item Sys::Virt::NODE_MEMORY_SHARED_MERGE_ACROSS_NODES
+
+Whether pages can be merged across NUMA nodes
 
 =back
 
