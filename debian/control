@@ -7,7 +7,7 @@ Build-Depends:
  libtest-pod-coverage-perl,
  libtest-pod-perl,
  libvirt-daemon,
- libvirt-dev (>= 1.2.12~),
+ libvirt-dev (>= 1.2.13~),
  libxml-xpath-perl,
  perl,
  pkg-config
