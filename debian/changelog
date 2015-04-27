@@ -2,9 +2,9 @@ libsys-virt-perl (1.2.14-1) UNRELEASED; urgency=medium
 
   WAITS-FOR: jessie release
 
-  * Imported upstream version 1.2.12 and 1.2.13
-  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.13~)
-  * Import upstream version 1.2.14
+  * Imported upstream version 1.2.12, 1.2.13 and 1.2.14
+  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.14~)
+  * Update copyright for debian/* packaging files
 
  -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 27 Apr 2015 12:35:25 +0200
 
