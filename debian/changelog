@@ -1,3 +1,9 @@
+libsys-virt-perl (1.2.15-1) UNRELEASED; urgency=medium
+
+  * Import upstream version 1.2.15
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 06 May 2015 05:36:38 +0200
+
 libsys-virt-perl (1.2.14-1) unstable; urgency=low
 
   * Imported upstream version 1.2.12, 1.2.13 and 1.2.14
