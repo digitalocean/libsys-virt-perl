@@ -1,6 +1,7 @@
 libsys-virt-perl (1.2.19-1) UNRELEASED; urgency=medium
 
   * Import upstream version 1.2.19
+  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.19~)
 
  -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 03 Sep 2015 12:18:31 +0200
 
