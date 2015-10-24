@@ -1,3 +1,10 @@
+libsys-virt-perl (1.2.19-2) UNRELEASED; urgency=medium
+
+  * Rename autopkgtest configuration file(s) as per new pkg-perl-
+    autopkgtest schema.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 24 Oct 2015 13:46:40 +0200
+
 libsys-virt-perl (1.2.19-1) unstable; urgency=low
 
   * Import upstream version 1.2.19
