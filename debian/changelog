@@ -1,4 +1,4 @@
-libsys-virt-perl (1.2.21-1) UNRELEASED; urgency=medium
+libsys-virt-perl (1.2.21-1) unstable; urgency=low
 
   [ gregor herrmann ]
   * Rename autopkgtest configuration file(s) as per new pkg-perl-
@@ -6,8 +6,9 @@ libsys-virt-perl (1.2.21-1) UNRELEASED; urgency=medium
 
   [ Salvatore Bonaccorso ]
   * Import upstream version 1.2.21
+  * Bump versioned Build-Depends on libvirt-dev to (>= 1.2.21~)
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Wed, 11 Nov 2015 21:51:12 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 12 Nov 2015 06:29:12 +0100
 
 libsys-virt-perl (1.2.19-1) unstable; urgency=low
 
