@@ -1,8 +1,9 @@
-libsys-virt-perl (1.3.1-2) UNRELEASED; urgency=medium
+libsys-virt-perl (1.3.2-1) UNRELEASED; urgency=medium
 
   * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+  * Import upstream version 1.3.2
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 30 Jan 2016 20:06:41 +0100
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 01 Mar 2016 20:41:12 +0100
 
 libsys-virt-perl (1.3.1-1) unstable; urgency=low
 
