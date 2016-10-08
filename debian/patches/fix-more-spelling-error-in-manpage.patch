@@ -3,7 +3,8 @@ Origin: vendor
 Bug: https://rt.cpan.org/Ticket/Display.html?id=113875
 Forwarded: https://rt.cpan.org/Ticket/Display.html?id=113875
 Author: Salvatore Bonaccorso <carnil@debian.org>
-Last-Update: 2016-07-01
+Reviewed-by: Salvatore Bonaccorso <carnil@debian.org>
+Last-Update: 2016-10-08
 
 --- a/lib/Sys/Virt.pm
 +++ b/lib/Sys/Virt.pm
@@ -82,4 +83,15 @@ Last-Update: 2016-07-01
 +Send up to C<$nbytes> worth of data, copying from C<$data>.
  Returns the number of bytes sent, or -2 if I/O would block,
  or -1 on error.
+ 
+--- a/lib/Sys/Virt/StorageVol.pm
++++ b/lib/Sys/Virt/StorageVol.pm
+@@ -211,7 +211,7 @@ Do a plain delete without any attempt to
+ 
+ =item Sys::Virt::StorageVol::DELETE_ZEROED
+ 
+-Zero out current allocated blocks when deleteing the volume
++Zero out current allocated blocks when deleting the volume
+ 
+ =item Sys::Virt::StorageVol::DELETE_WITH_SNAPSHOTS
  
