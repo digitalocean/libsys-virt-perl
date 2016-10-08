@@ -1,9 +1,11 @@
-libsys-virt-perl (2.3.0-1) UNRELEASED; urgency=medium
+libsys-virt-perl (2.3.0-1) unstable; urgency=medium
 
   * Import upstream version 2.3.0
   * Bump versioned Build-Depends on libvirt-dev to (>= 2.3.0~)
+  * Refresh fix-more-spelling-error-in-manpage.patch patch.
+    Add more spelling fixes as reported by lintian.
 
- -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 06 Oct 2016 15:00:58 +0200
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 08 Oct 2016 19:08:39 +0200
 
 libsys-virt-perl (2.2.0-1) unstable; urgency=medium
 
