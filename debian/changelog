@@ -1,3 +1,9 @@
+libsys-virt-perl (3.0.0-1digitalocean0) UNRELEASED; urgency=low
+
+  * Adapt to Trusty
+
+ -- Andrew James <ajames@digitalocean.com>  Wed, 07 Aug 2019 15:20:01 -0600
+
 libsys-virt-perl (3.0.0-1) unstable; urgency=medium
 
   * Import upstream version 3.0.0
