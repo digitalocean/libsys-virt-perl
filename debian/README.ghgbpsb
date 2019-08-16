@@ -56,10 +56,10 @@ Use ghgbpsb:
   Create a build tag. An example tag message is provided but it is always safe
   to copy the message from the last production release.
 
-    $ cd libvirt-sys-perl
+    $ cd libsys-virt-perl
     $ git tag exampletag -m 'distribution=trusty; archive_components="main,universe"; extra_repository="deb http://127.0.0.1:8080/ trusty main"; extra_repository_key="<path to your public gpg key>"; DEB_BUILD_OPTIONS="reproducible=+all"'
 
   Build the tag:
 
     $ cd ..
-    $ ghgbpsb libvirt-sys-perl exampletag
+    $ ghgbpsb libsys-virt-perl exampletag
